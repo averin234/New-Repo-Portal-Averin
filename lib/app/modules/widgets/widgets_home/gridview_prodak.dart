@@ -4,7 +4,7 @@ import 'package:portal_sirs/app/modules/endpoint/data_produk.dart';
 
 import '../../../routes/app_pages.dart';
 import '../../endpoint/fetch_data.dart';
-import 'listvie_card_produk.dart';
+import 'listview_card_produk.dart';
 
 class MyGridView extends StatelessWidget {
   const MyGridView({Key? key}) : super(key: key);
