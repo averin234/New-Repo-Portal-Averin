@@ -8,6 +8,7 @@ import '../../endpoint/fetch_data.dart';
 
 class CardProduk extends StatelessWidget {
   CardProduk({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return FutureBuilder<Produk>(
