@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shrink_sidemenu/shrink_sidemenu.dart';
 
 import '../../widgets/widgets_home/gridview_prodak.dart';
+import '../../widgets/widgets_home/listvie_card_produk.dart';
 import '../../widgets/widgets_home/title.dart';
 
 class HomeView extends StatefulWidget {
@@ -96,7 +97,7 @@ class _HomeViewState extends State<HomeView> {
                       height: 20,
                     ),
                   Expanded(
-                    child: MyGridView(),),
+                    child: CardProduk(),),
 
                 ],
               ),

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:portal_sirs/app/modules/endpoint/data_produk.dart';
 
 import '../../../routes/app_pages.dart';
-import 'card_produk.dart';
+import '../../endpoint/fetch_data.dart';
+import 'listvie_card_produk.dart';
 
 class MyGridView extends StatelessWidget {
   const MyGridView({Key? key}) : super(key: key);
@@ -15,7 +17,7 @@ class MyGridView extends StatelessWidget {
       ),
       itemCount: 9, // Ganti sesuai dengan jumlah item yang diinginkan
       itemBuilder: (context, index) {
-        return CardProduk();
+        return Container();
       },
     );
   }
