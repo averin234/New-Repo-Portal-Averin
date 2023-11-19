@@ -11,7 +11,7 @@ class CardProduk extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder<Produk>(
-      future: API.produkaverin(),
+      future: API.fetchData(),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return CircularProgressIndicator();
