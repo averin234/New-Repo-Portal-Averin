@@ -11,6 +11,7 @@ dependencies:
   shrink_sidemenu: ^2.0.0+2-null-safety
   sliver_app_bar_builder: ^1.1.0
   dio: ^5.3.3
+  hexcolor: ^3.0.1
   flutter: 
     sdk: flutter
 
@@ -25,4 +26,5 @@ flutter:
     - assets/
     - assets/logo/
     - assets/images/
+    - assets/design_course/
 

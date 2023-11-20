@@ -10,8 +10,8 @@ class TentangSettingView extends GetView<TentangSettingController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('TentangSettingView'),
-        centerTitle: true,
+        title: const Text('Tentang Setting'),
+        centerTitle: false,
       ),
       body: const Center(
         child: Text(

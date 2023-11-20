@@ -10,8 +10,8 @@ class KontakView extends GetView<KontakController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('KontakView'),
-        centerTitle: true,
+        title: const Text('Kontak'),
+        centerTitle: false,
       ),
       body: const Center(
         child: Text(

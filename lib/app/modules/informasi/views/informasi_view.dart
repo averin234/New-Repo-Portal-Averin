@@ -10,8 +10,8 @@ class InformasiView extends GetView<InformasiController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('InformasiView'),
-        centerTitle: true,
+        title: const Text('Informasi'),
+        centerTitle: false,
       ),
       body: const Center(
         child: Text(

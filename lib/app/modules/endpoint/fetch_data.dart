@@ -8,15 +8,15 @@ class API {
 
   static Future<List<dynamic>> fetchAPI() async {
     Dio dio = Dio();
-      var response = await dio.get('https://fakestoreapi.com/products');
-      // var response = await dio.post(
-      //   _baseUrl + '?id=produk',
-      //   options: Options(
-      //     headers: <String, dynamic>{
-      //       'Content-Type': 'application/json',
-      //     },
-      //   ),
-      // );
+      // var response = await dio.get('https://fakestoreapi.com/products');
+      var response = await dio.get(
+        _baseUrl + '?id=produk',
+        options: Options(
+          headers: <String, dynamic>{
+            'Content-Type': 'application/json',
+          },
+        ),
+      );
         print(response.data);
         return response.data;
   }

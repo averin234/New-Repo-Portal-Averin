@@ -10,8 +10,8 @@ class TentangAplikasiView extends GetView<TentangAplikasiController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('TentangAplikasiView'),
-        centerTitle: true,
+        title: const Text('Tentang Aplikasi'),
+        centerTitle: false,
       ),
       body: const Center(
         child: Text(
